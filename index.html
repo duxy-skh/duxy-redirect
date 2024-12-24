@@ -3,10 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="refresh" content="0; url=https://www.duxy.us/">
+  <meta http-equiv="refresh" content="3; url=https://www.duxy.us/">
   <title>Redirecting...</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: white;
+      text-align: center;
+    }
+    .redirect-container {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    a {
+      color: #ffeaa7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <p>If you are not redirected automatically, follow this <a href="https://www.duxy.us/">link</a>.</p>
+  <div class="redirect-container">
+    <h1>Redirecting...</h1>
+    <p>You will be redirected in 3 seconds. If not, click <a href="https://www.duxy.us/">here</a>.</p>
+  </div>
 </body>
 </html>
